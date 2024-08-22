@@ -14,21 +14,78 @@
         </header>
         <div class="surveyform">
             <form action="./result.html">
+                <!-- ------------------------------- -->
+                <!--            INFO-FORM            -->
+                <!-- ------------------------------- -->
                 <div class="input-box">
                     <label for="name">Name</label>
                     <br>
                     <input type="text" name="Name" placeholder="Enter your name" id="name">
                 </div>
-                <div>
+                <div class="input-box">
                     <label for="age">Age</label>
                     <br>
                     <input type="text" name="Age" id="age" placeholder="Age">
                 </div>
-                     <!-- Gender bu araya gelecek -->
-                <div>
+                     <!-- ------------------------------- -->
+                     <!--             GENDER              -->
+                     <!-- ------------------------------- -->
+                <div class="input-box">
+                    <label for="">Gender</label>
+                    <br>
+                    <input type="radio" name="gender" id="male" value="male">
+                    <label for="male">Male</label>
+                    <br>
+                    <input type="radio" name="gender" id="female" value="female">
+                    <label for="female">Female</label>
+                    <br>
+                    <input type="radio" name="gender" id="others" value="others">
+                    <label for="others">Others</label>
+                </div>      
+                <div class="input-box">
                     <label for="email">Email</label>
                     <br>
                     <input type="text" name="Email" id="email" placeholder="Enter your Email">
+                </div>
+                <!-- ------------------------------- -->
+                <!--          Content Type           -->
+                <!-- ------------------------------- -->
+                <div class="input-box">
+                    <label for="content">Content Type</label>
+                    <br>
+                    <select name="Content" id="content">
+                        <option value="movie">Movie</option>        
+                        <option value="series" selected>Serie</option>        
+                        <option value="documantary">Documantary</option>        
+                        <option value="standup">Stand Up</option>
+                        <option value="show">Reality Show</option>
+                    </select>
+                </div>
+                <!-- ------------------------------- -->
+                <!--             GENRES              -->
+                <!-- ------------------------------- -->
+                <div class="input-box">
+                    <label for="">Genres</label>
+                    <br>
+                    <input type="checkbox" name="Genres" id="comedy" value="comedy">
+                    <label for="comedy">Comedy</label>
+
+                    <input type="checkbox" name="Genres" id="Action&adventure
+                    " value="Action&adventure">
+                    <label for="Action&adventure">Action & Adventure</label>
+
+                    <input type="checkbox" name="Genres" id="drama
+                    " value="drama">
+                    <label for="drama">Drama</label>
+
+                    <input type="checkbox" name="Genres" id="Romance" value="Romance">
+                    <label for="Romance">Romance</label>
+
+                    <input type="checkbox" name="Genres" id="Sci-Fi" value="Sci-Fi">
+                    <label for="Sci-Fi">Sci - Fi</label>
+
+                    <input type="checkbox" name="Genres" id="Thriller" value="Thriller">
+                    <label for="Thriller">Thriller</label>
                 </div>
 
         
